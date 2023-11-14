@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="#快速开始">快速开始</a> •
+  <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf">查看白皮书</a> •
   <a href="https://yaklang.io/products/intro/">官方文档</a> •
-  <a href="https://github.com/yaklang/yaklang/issues">问题反馈</a> •
+  <a href="https://github.com/yaklang/yakit/issues">问题反馈</a> •
   <a href="https://yaklang.io/">进入官网</a> •
   <a href="#贡献你的代码">贡献代码</a> •
   <a href="#社区 ">加入社区</a> •
@@ -23,25 +23,22 @@
 </p>
 
 <p align="center">
- :book:语言选择： <a href="https://github.com/yaklang/yaklang/blob/main/README_EN.md">English</a> • 
-  <a href="https://github.com/yaklang/yaklang/blob/main/README.md">中文</a> 
+ :book:语言选择： <a href="https://github.com/yaklang/yakit/blob/master/README-EN.md">English</a> • 
+  <a href="https://github.com/yaklang/yakit/blob/main/README.md">中文</a> 
 </p>
 
 ---
-# YAKIT-交互式应用安全测试平台
-
-[进入官网](https://yaklang.com/)
-
-[技术白皮书](https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf)
+# Yakit 简介
 
 安全融合是新常态下企业的一项安全运营与安全管理的改革，也是新常态下企业的当务之急。
 
-基于安全融合的理念，Yaklang.io团队研发出了安全领域垂直语言Yaklang，对于一些无法原生集成在 Yak平台中的产品/工具，利用Yaklang可以重新编写他们的“高质量替代”。对于一些生态完整且认可度较高的产品，Yaklang能直接编译融合，并对源码进行必要修改，更好地适配Yaklang语言。对于一些不想写代码的安全从业者，Yakit会为Yaklang中所有的能力提供合适的GUI，随着版本更迭，GUI会更加成熟。
+基于安全融合的理念，Yaklang.io 团队研发出了安全领域垂直语言Yaklang，对于一些无法原生集成在 Yak 平台中的产品/工具，利用Yaklang可以重新编写他们的“高质量替代”。对于一些生态完整且认可度较高的产品，Yaklang能直接编译融合，并对源码进行必要修改，更好地适配Yaklang语言。对于一些不想写代码的安全从业者，Yakit会为Yaklang中所有的能力提供合适的GUI，随着版本更迭，GUI会更加成熟。
 
-![HeadIMG](./imgs/readme_headimg.jpg)
+<h3 align="center">
+  <img src="imgs/yaklang-cdsl.png" style="width: 500px" alt="yaklang-cdsl.png" ></a>
+</h3>
 
-为了让Yaklang本身的安全能力更贴近大家的实际使用，我们为Yak编写了gRPC服务器，并使用这个服
-务器实现构建了一个客户端：Yakit。
+为了让Yaklang本身的安全能力更贴近大家的实际使用，我们为Yak编写了gRPC服务器，并使用这个服务器实现构建了一个客户端：Yakit。
 
 ## 项目架构
 
