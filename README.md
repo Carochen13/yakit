@@ -80,9 +80,13 @@ CDSL 定义为 CyberSecurity Domain Specific Language，网络安全领域的专
 
 MITM 操作台可百分百替代 BurpSuite执行所有操作(下载并安装证书、劫持请求、响应、编辑劫持到的数据包等)。并且提供一整套顺畅的工作流，劫持=>History=>Repeater/Intruder，劫持数据，在History查看历史数据，选择需要“挖掘”的数据包，发送到Web Fuzzer进行Repeater/Intruder操作。除了这些典型的操作场景外，MITM还提供了插件被动扫描、热加载、数据包替换、标记等更灵活的功能。
 
+Yakit的MITM模块原理是启动一个HTTP代理，自动转发流量，当用户启动手动劫持后，会停止自动转发，阻塞请求，并将请求出栈，做解Gzip、处理chunk、解码等处理，让请求变得人类可读，并显示在用户前端，用户可以对请求做查看、修改或重放。重放时，会对用户构造的HTTP请求数据包做修复，保证请求包的有效性。Yak引擎手动实现了HTTP库，所以用户可以自定义畸形的请求包、响应包，应用于一些特殊场景下的漏洞利用。
+
+
 <h3 align="center">
   <img src="imgs/yakit-mitm.png" style="width: 700px" alt="yakit-mitm.png" ></a>
 </h3>
+
 
 ### Web应用交互式流量重放与模糊测试
 
