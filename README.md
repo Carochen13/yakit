@@ -92,7 +92,7 @@ Yakit的MITM模块原理是启动一个HTTP代理，自动转发流量，当用�
 
 Web Fuzzer模块支持用户自定义HTTP原文发送请求。为了让用户使用简单，符合直觉，只需要关心数据相关信息，Yakit后端做了很多工作。HTTP原文中一些保证数据传输和解析的信息都是由Yakit后端修复补全的，例如修复CRLF，补全Content-Type、通过chunk方式传输、补全boundary、修复Content-Length等等。
 
-![](./imgs/webfuzzer-1.jpg)
+![](./imgs/webfuzzer.png)
 
 
 ### Fuzztag 技术
