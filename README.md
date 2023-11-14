@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://yaklang.io/"><img src="imgs/readme_headimg.jpgg" style="width: 400px"/></a> 
+  <a href="https://yaklang.io/"><img src="imgs/readme_headimg.jpg" style="width: 400px"/></a> 
  <h2 align="center">为网络安全而生的领域编程语言</h2>
 <p align="center">
 <img src="https://img.shields.io/github/issues-pr/yaklang/yaklang">
