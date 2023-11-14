@@ -17,7 +17,6 @@
   <a href="https://yaklang.io/products/intro/">官方文档</a> •
   <a href="https://github.com/yaklang/yakit/issues">问题反馈</a> •
   <a href="https://yaklang.io/">进入官网</a> •
-  <a href="#贡献你的代码">贡献代码</a> •
   <a href="#社区 ">加入社区</a> •
   <a href="#项目架构">项目架构</a> 
 </p>
@@ -116,19 +115,18 @@ Fuzzer模块支持插入热加载标签，例如需要爆破某地区的身份�
 
 [技术白皮书](https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf)
 
-## 联系我们
+## 加入社区
 
 如果对我们的产品有任何建设性意见或 BUG 反馈，欢迎大家提 issue
 
 或通过微信公众号联系我们，也欢迎联系商业授权与合作
 
-进交流群或有问题想与技术同学沟通，请联系并添加运营微信号：
+进交流群或有问题想与技术同学沟通，请联系并添加运营微信号加入社区：
 
-![wechat2](./imgs/wechat2.png)
 
-公众号二维码：
-
-![wechat1](./imgs/wechat1.jpeg)
+<h3 align="left">
+  运营微信号:<img src="imgs/wechat2.png" style="width: 400px" alt="wechat2.png" ></a> 公众号二维码：<img src="imgs/wechat1.jpeg" style="width: 400px" alt="wechat1.jpeg" ></a>
+</h3>
 
 
 ## Stargazers over time
