@@ -56,7 +56,7 @@ CDSL 定义为 CyberSecurity Domain Specific Language，网络安全领域的专
 实际上就是通过 Yakit 的 GUI 去操控引擎的能力。Yakit 的 gRPC 服务器，让用户部署更加方便快捷，与平台无关，可选择远程部署或直接本地启动在主机中使用。
 
 <h3 align="center">
-  <img src="imgs/yakit-gongneng.jpg" style="width: 700px" alt="yakit-gongneng.jpg" ></a>
+  <img src="imgs/yakit-gongneng.png" style="width: 700px" alt="yakit-gongneng.png" ></a>
 </h3>
 
 1. 可百分百替代 BurpSuite 的 MITM 劫持平台；
@@ -80,12 +80,9 @@ CDSL 定义为 CyberSecurity Domain Specific Language，网络安全领域的专
 
 MITM 操作台可百分百替代 BurpSuite执行所有操作(下载并安装证书、劫持请求、响应、编辑劫持到的数据包等)。并且提供一整套顺畅的工作流，劫持=>History=>Repeater/Intruder，劫持数据，在History查看历史数据，选择需要“挖掘”的数据包，发送到Web Fuzzer进行Repeater/Intruder操作。除了这些典型的操作场景外，MITM还提供了插件被动扫描、热加载、数据包替换、标记等更灵活的功能。
 
-![](./imgs/mitm.jpg)
-
-![](./imgs/mitm-hijacking.jpg)
-
-![](./imgs/mitm-modified.jpg)
-
+<h3 align="center">
+  <img src="imgs/yakit-mitm.png" style="width: 700px" alt="yakit-mitm.png" ></a>
+</h3>
 
 ### Web应用交互式流量重放与模糊测试
 
