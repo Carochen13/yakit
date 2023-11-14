@@ -1,15 +1,15 @@
 
 <p align="center">
   <a href="https://yaklang.io/"><img src="imgs/head.jpg" style="width: 400px"/></a> 
- <h2 align="center">为网络安全而生的领域编程语言</h2>
+ <h2 align="center">Yakit-交互式应用安全测试平台</h2>
 <p align="center">
-<img src="https://img.shields.io/github/issues-pr/yaklang/yaklang">
-<a href="https://github.com/yaklang/yaklang/releases"><img src="https://img.shields.io/github/downloads/yaklang/yaklang/total">
-<a href="https://github.com/yaklang/yaklang/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/yaklang/yaklang">
-<a href="https://github.com/yaklang/yaklang/releases/"><img src="https://img.shields.io/github/release/yaklang/yaklang">
-<a href="https://github.com/yaklang/yaklang/issues"><img src="https://img.shields.io/github/issues-raw/yaklang/yaklang">
-<a href="https://github.com/yaklang/yaklang/discussions"><img src="https://img.shields.io/github/stars/yaklang/yaklang">
-<a href="https://github.com/yaklang/yaklang/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/yaklang/yaklang">
+<img src="https://img.shields.io/github/issues-pr/yaklang/yakit">
+<a href="https://github.com/yaklang/yakit/releases"><img src="https://img.shields.io/github/downloads/yaklang/yakit/total">
+<a href="https://github.com/yaklang/yakkit/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/yaklang/yakit">
+<a href="https://github.com/yaklang/yakit/releases/"><img src="https://img.shields.io/github/release/yaklang/yakit">
+<a href="https://github.com/yaklang/yakit/issues"><img src="https://img.shields.io/github/issues-raw/yaklang/yakit">
+<a href="https://github.com/yaklang/yakit/discussions"><img src="https://img.shields.io/github/stars/yaklang/yakit">
+<a href="https://github.com/yaklang/yakit/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/yaklang/yakit">
 </p>
 
 <p align="center">
