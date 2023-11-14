@@ -35,7 +35,7 @@
 基于安全融合的理念，Yaklang.io 团队研发出了安全领域垂直语言Yaklang，对于一些无法原生集成在 Yak 平台中的产品/工具，利用Yaklang可以重新编写他们的“高质量替代”。对于一些生态完整且认可度较高的产品，Yaklang能直接编译融合，并对源码进行必要修改，更好地适配Yaklang语言。对于一些不想写代码的安全从业者，Yakit会为Yaklang中所有的能力提供合适的GUI，随着版本更迭，GUI会更加成熟。
 
 <h3 align="center">
-  <img src="imgs/yaklang-cdsl.png" style="width: 500px" alt="yaklang-cdsl.png" ></a>
+  <img src="imgs/yakit-cdsl.png" style="width: 500px" alt="yakit-cdsl.png" ></a>
 </h3>
 
 为了让Yaklang本身的安全能力更贴近大家的实际使用，我们为Yak编写了gRPC服务器，并使用这个服务器实现构建了一个客户端：Yakit。
