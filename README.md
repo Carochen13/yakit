@@ -125,7 +125,7 @@ Fuzzer模块支持插入热加载标签，例如需要爆破某地区的身份�
 
 
 <h3 align="left">
-  运营微信号:<img src="imgs/wechat2.png" style="width: 400px" alt="wechat2.png" ></a> 公众号二维码：<img src="imgs/wechat1.jpeg" style="width: 400px" alt="wechat1.jpeg" ></a>
+  运营微信号:<img src="imgs/wechat2.png" style="width: 200px" alt="wechat2.png" ></a> 公众号二维码：<img src="imgs/wechat1.jpeg" style="width: 200px" alt="wechat1.jpeg" ></a>
 </h3>
 
 
