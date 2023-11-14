@@ -61,10 +61,14 @@ CDSL 定义为 CyberSecurity Domain Specific Language，网络安全领域的专
 4. 全球第一个可视化的Web模糊测试工具—Web Fuzzer；
 5. Yakit插件商店：
 6. 可在渗透测试任何步骤内执行自定义的Yaklang脚本或插件
+   ... ...
 
-想实现的功能应有尽有。
+安全能力概览：
 
-![](./imgs/yaklang-caps.jpg)
+<h3 align="center">
+  <img src="imgs/yaklang-caps.jpg" style="width: 700px" alt="yaklang-caps.jpg" ></a>
+</h3>
+
 
 ## 特色技术
 
