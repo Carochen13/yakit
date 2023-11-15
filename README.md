@@ -69,7 +69,7 @@ CDSL 定义为 CyberSecurity Domain Specific Language，网络安全领域的专
 安全能力概览：
 
 <h3 align="center">
-  <img src="imgs/yaklang-caps.jpg" style="width: 700px" alt="yaklang-caps.jpg" ></a>
+  <img src="imgs/yaklang-caps.jpg" style="width: 600px" alt="yaklang-caps.jpg" ></a>
 </h3>
 
 
@@ -83,7 +83,7 @@ Yakit的MITM模块原理是启动一个HTTP代理，自动转发流量，当用�
 
 
 <h3 align="center">
-  <img src="imgs/yakit-mitm.png" style="width: 700px" alt="yakit-mitm.png" ></a>
+  <img src="imgs/yakit-mitm.png" style="width: 600px" alt="yakit-mitm.png" ></a>
 </h3>
 
 
