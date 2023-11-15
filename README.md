@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
- <img src="imgs/language.png" style="width: 40px" ></a> <a href="https://github.com/yaklang/yakit/blob/master/README-EN.md">English</a> • 
+ :book:语言选择： <a href="https://github.com/yaklang/yakit/blob/master/README-EN.md">English</a> • 
   <a href="https://github.com/yaklang/yakit/blob/main/README.md">中文</a> 
 </p>
 
@@ -43,7 +43,7 @@
 
 
 <h3 align="center">
-  <img src="imgs/yakit-arch.jpg" style="width: 400px" alt="yakit-arch.jpg" ></a>
+  <img src="imgs/yakit-arch.jpg" style="width: 600px" alt="yakit-arch.jpg" ></a>
 </h3>
 
 
@@ -69,7 +69,7 @@ CDSL 定义为 CyberSecurity Domain Specific Language，网络安全领域的专
 安全能力概览：
 
 <h3 align="center">
-  <img src="imgs/yaklang-caps.jpg" style="width: 600px" alt="yaklang-caps.jpg" ></a>
+  <img src="imgs/yaklang-caps.jpg" style="width: 700px" alt="yaklang-caps.jpg" ></a>
 </h3>
 
 
@@ -83,7 +83,7 @@ Yakit的MITM模块原理是启动一个HTTP代理，自动转发流量，当用�
 
 
 <h3 align="center">
-  <img src="imgs/yakit-mitm.png" style="width: 600px" alt="yakit-mitm.png" ></a>
+  <img src="imgs/yakit-mitm.png" style="width: 700px" alt="yakit-mitm.png" ></a>
 </h3>
 
 
@@ -91,7 +91,9 @@ Yakit的MITM模块原理是启动一个HTTP代理，自动转发流量，当用�
 
 Web Fuzzer模块支持用户自定义HTTP原文发送请求。为了让用户使用简单，符合直觉，只需要关心数据相关信息，Yakit后端做了很多工作。HTTP原文中一些保证数据传输和解析的信息都是由Yakit后端修复补全的，例如修复CRLF，补全Content-Type、通过chunk方式传输、补全boundary、修复Content-Length等等。
 
-![](./imgs/webfuzzer.png)
+<h3 align="center">
+  <img src="imgs/webfuzzer.png" style="width: 600px" alt="webfuzzer.png" ></a>
+</h3>
 
 
 ### Fuzztag 技术
@@ -99,7 +101,11 @@ Web Fuzzer模块支持用户自定义HTTP原文发送请求。为了让用户使
 Web Fuzzer模块支持通过Fuzz标签，自然且完美整合了Host碰撞、Intruder、目录爆破等功能。例如单参数爆破场景，以爆破用户id为例，可以使用{{int(1-10)}}标签自动生成爆破的id。面对多个参数爆破的场景，采用笛卡尔乘积的结果作为爆破参数，相较于BurpSuite的Intruder模块，免去了选择爆破方式，导入字典等步骤，极大的减少了用户的操作路径，符合用户使用习惯。当然Web Fuzzer模块除了使用标签自动生成参数，也支持导入外部字典，例：{{file(/tmp/username.txt)}}。面对一些更复杂的数据场景，Web
 Fuzzer模块支持插入热加载标签，例如需要爆破某地区的身份证号，可以直接在Web Fuzzer模块插入Yak脚本生成数据进行爆破。而BurpSuite的Intruder模块，面临这种场景，需要编写代码生成字典，再导入Intruder模块。
 
-> [Fuzztag 速览](https://yaklang.com/docs/newforyak/fuzztag)
+<h3 align="center">
+<img src="imgs/fuzztag.png" style="width: 600px" alt="fuzztag.png" ></a>
+</h3>
+
+>关于fuzztag的更多内容可以查看： [Fuzztag 速览](https://yaklang.com/docs/newforyak/fuzztag)
 
 ### 反连技术与应用协议复用技术
 
@@ -107,11 +113,19 @@ Fuzzer模块支持插入热加载标签，例如需要爆破某地区的身份�
 
 与此同时Yakit基于端口协议复用技术实现了反连模块，其中包括Reverse Shell、反连利用、反连检测功能。Reverse Shell可以监听指定端口，作为反弹Shell的接收端，收到反弹Shell后，可以和ssh一样控制远端服务器。传统渗透测试的反连需求中需要使用Nc监听端口，但一些按键如退格键、方向键会有乱码的情况，反弹的Shell使用起来和原生的ssh还有很大区别，而Yakit的Reverse Shell可以做到类似原生ssh的使用体验。反连利用部分可以通过监听一个端口，为不同协议的回连设置Payload，收到请求后便会自动识别请求的协议，返回相应Payload，实现漏洞利用。反连检测功能提供了TCP、DNSLog、ICMP反连的检测，可用于一些命令执行的检测。
 
-![](/imgs/reverse.jpg)
+<h3 align="center">
+<img src="imgs/reverse.png" style="width: 600px" alt="reverse.png" ></a>
+</h3>
 
-## 更多技术信息
+## 使用
 
-[进入官网查看](https://yaklang.com/products/intro/)
+- 您可以进入[官网](https://yaklang.com/)进行下载安装
+
+- 可以查看我们的[官方文档](https://yaklang.io/products/intro/)进行Yakit的学习和使用
+
+更多的技术内容可以查看：
+
+[Yakit技术文章](https://yaklang.io/products/article/yakit-technical-study/methodology)
 
 [技术白皮书](https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf)
 
@@ -137,7 +151,6 @@ Fuzzer模块支持插入热加载标签，例如需要爆破某地区的身份�
 
 [English](https://github.com/yaklang/yakit/blob/master/README-EN.md) • [中文](https://github.com/yaklang/yakit/blob/master/README_LEGACY.md)
 
-::: warning
 
 ## 免责声明
 
@@ -156,7 +169,6 @@ Fuzzer模块支持插入热加载标签，例如需要爆破某地区的身份�
 限制、免责条款或者其他涉及您重大权益的条款可能会以 **加粗**、加下划线等形式提示您重点注意。
 
 除非您已充分阅读、完全理解并接受本协议所有条款，否则，请您不要安装并使用本工具。您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
-:::
 
 
 
