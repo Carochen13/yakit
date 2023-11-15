@@ -137,7 +137,7 @@ Fuzzer模块支持插入热加载标签，例如需要爆破某地区的身份�
 
 [English](https://github.com/yaklang/yakit/blob/master/README-EN.md) • [中文](https://github.com/yaklang/yakit/blob/master/README_LEGACY.md)
 
-## Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
+::: warning
 
 ## 免责声明
 
@@ -156,7 +156,7 @@ Fuzzer模块支持插入热加载标签，例如需要爆破某地区的身份�
 限制、免责条款或者其他涉及您重大权益的条款可能会以 **加粗**、加下划线等形式提示您重点注意。
 
 除非您已充分阅读、完全理解并接受本协议所有条款，否则，请您不要安装并使用本工具。您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
-
+:::
 
 
 
