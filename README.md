@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
- :book:语言选择： <a href="https://github.com/yaklang/yakit/blob/master/README-EN.md">English</a> • 
+ <img src="imgs/language.png" style="width: 20px" ></a> <a href="https://github.com/yaklang/yakit/blob/master/README-EN.md">English</a> • 
   <a href="https://github.com/yaklang/yakit/blob/main/README.md">中文</a> 
 </p>
 
