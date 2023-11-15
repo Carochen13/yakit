@@ -43,7 +43,7 @@
 
 
 <h3 align="center">
-  <img src="imgs/yakit-arch.jpg" style="width: 700px" alt="yakit-arch.jpg" ></a>
+  <img src="imgs/yakit-arch.jpg" style="width: 500px" alt="yakit-arch.jpg" ></a>
 </h3>
 
 
